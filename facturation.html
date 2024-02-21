@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facturation</title>
+    <link rel="stylesheet" href="style-2.css">
+</head>
+<body>
+    <header class="Menu">
+        <a href="">Informations</a> | 
+        <a href="">F.A.Q</a> | 
+        <a href="">Nous contacter</a>
+    </header>
+        <h4 class="Titre-Info">Information de facturation</h4>
+    <div class="Fournisseur">
+        <label for="fournisseur">Fournisseur</label>
+    </div>
+
+    <div class="Fournisseur">
+        <label for="fournisseur">Fournisseur</label>
+    </div>
+    <div class="Choix">
+        <select name="fournisseur" id="fournisseur">
+            <option value="fournisseur1">Fournisseur 1</option>
+            <option value="fournisseur2">Fournisseur 2</option>
+            <option value="fournisseur3">Fournisseur 3</option>
+            <option value="fournisseur4">Fournisseur 4</option>
+            <option value="autre">Autres</option>
+        </select>
+        <input type="text" id="autreFournisseur" style="display: none;" placeholder="Entrez le nom du fournisseur">
+    </div>
+
+        <form class="texto">
+            <fieldset class="fieldset-1">
+                <legend class="Entreprise">
+                    <h5>Entreprise</h5>
+                </legend>
+            <div class="type-info">
+                <label for="Société">Société*</label>
+            </div>
+
+            <div class="donnees">
+                <input type="text" name="Société" id="Société" required>
+            </div>
+
+            <div class="type-info">
+                <label for="TVA">N° TVA*</label>
+            </div>
+
+            <div class="donnees">
+                <input type="text" name="TVA" id="TVA" required>
+            </div>
+
+            <div class="type-info">
+                <label for="Adresse">Adresse*</label>
+            </div>
+
+            <textarea name="Adresse" id="Adresse" cols="40" rows="8"></textarea>
+
+            <div class="type-info">
+                <label for="Code_Postal">Code Postal*</label>
+            </div>
+
+            <div class="donnees">
+                <input type="text" name="Code_Postal" id="Code_Postal" required>
+            </div>
+
+            <div class="type-info">
+                <label for="Ville">Ville*</label>
+            </div>
+
+            <div class="donnees">
+                <input type="text" name="Ville" id="Ville" required>
+            </div>
+            </fieldset>
+
+
+            <fieldset class="fieldset-2">
+
+                <legend class="Representant">
+                    <h5>Répresentant</h5>
+                </legend>
+
+                <div class="type-info">
+                <label for="Genre">Genre</label>
+                </div>
+
+                <div class="sexe">
+                <input type="radio" name="radio-button" id="radio-button1" required>Homme
+                <input type="radio" name="radio-button" id="radio-button2" required>Femme
+                <input type="radio" name="radio-button" id="radio-button3" required>Non Binaire
+                </div>
+                <div class="type-info">
+                <label for="Nom">Nom*</label>
+                </div>
+
+                <div class="donnees">
+                <input type="text" name="Nom" id="Nom" required>
+                </div>
+
+                <div class="type-info">
+                <label for="Prenom">Prenom*</label>
+                </div>
+
+                <div class="donnees">
+                <input type="text" name="Prenom" id="Prenom" required>
+                </div>
+
+                <div class="type-info">
+                <label for="email">Courriel*</label>
+                </div>
+
+                <div class="donnees">
+                <input type="email" name="email" id="email" required>
+                </div>
+
+                <div class="type-info">
+                <label for="télephone">Télephone*</label>
+                </div>
+
+                <div class="donnees">
+                <input type="tel" name="télephone" id="télephone" required>
+                </div>
+                
+            </fieldset>
+
+
+            <fieldset class="Commentaire">
+                <legend>
+                    <h5>Commentaire</h5>
+                </legend>
+                <textarea name="Commentaire" id="Commentaire" cols="50" rows="5"></textarea>
+            </fieldset>
+
+            <h5 class="CO">
+                Champs obligatoires*
+            </h5>
+            <div class="button-envoyer">
+                <input type="submit" value="Envoyer">
+            </div>
+
+            <div class="button-effacer">
+                <input type="reset" value="Reinisialiser">
+            </div>
+            </div>
+        </form>
+
+    <h4 class="QF">Questions frequents</h4>
+    
+    <ul>
+        <li><strong>Mon fourniseur n'apparait pas dans la liste déroulante, comment faire ?</strong></li>
+    </ul>
+        Selectionner Autres dans la liste déroulant puis indiquez-nous le nom de votre fournisseur dans le Champs Commentaires.
+    <ul>
+        <li><strong>
+        Quel est le delai de réponse ?
+    </strong></li>
+    </ul>
+        Nos équipes traitent votre demande au plus vite. Vous obtiendrez une reponse generalement sous 48h (jours ouvrés).
+
+    <ul>
+        <li><strong>
+            J'ai une question, comment vous contacter ?
+        </strong></li>
+    </ul>
+        Vous pouvez utiliser notre <a href="https://www.youtube.com/watch?v=xcfft9RCM6I">Formulaire de Contact</a> ou nous envoyer un mail directement à <a href="mailto:andres.torresgonzales@viacesi.fr">@infomycompany.com</a>
+    <script src="java.js"></script>
+    <div class="top">
+    <button onclick="window.scrollTo(0, 0)" id="scrollToTopBtn" style="display: none;">Haut de la page</button>
+    </div>
+</body>
+</html>

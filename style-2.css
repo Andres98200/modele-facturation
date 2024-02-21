@@ -1,0 +1,138 @@
+body{
+    background-color: whitesmoke;
+}
+.Menu{
+    text-align: center;
+    background-color: black;
+    height: 20px;
+    color: white;
+    font-weight: bold;
+}
+.Menu a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Titre-Info{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Fournisseur{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: orange;
+    display: inline-block;
+}
+.Choix, .Choix option{
+    display: inline-block;
+    font-weight: bold;
+
+}
+.Entreprise{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+.type-info{
+    color: orange;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+
+}
+.donnees{
+    margin-top: 5px;
+}
+.donnees input[type="text"], 
+input[type="email"], 
+input[type="tel"]{
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+}
+textarea{
+    border-radius: 5px;
+    border: none;
+    resize: none;
+}
+.fieldset-1{
+    width: 50%;
+    flex-basis: 48%;
+    border-width: 1px;
+}
+.sexe{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.fieldset-2{
+    width: 50%;
+    flex-basis: 48%;
+    border-width: 1px;
+    height: 10cm;
+}
+.Representant{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+.texto{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Commentaire{
+    border: none;
+    color: orange;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Commentaire textarea{
+    margin-top:-15px ;
+}
+
+.button-envoyer input[type="submit"]{
+    background-color:orange;
+    cursor: pointer;
+    margin-right: 50%;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    height: 30px;
+    display: inline-block;
+ 
+}
+.button-effacer input[type="reset"]{
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    height: 30px;
+    display: inline-block;
+}
+.QF{
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+.CO{
+    font-size:smaller;
+    margin-right: 80%;
+}
+.button-effacer, .button-envoyer{
+    margin-right: 100%;
+    display: inline-block;
+}
+.error-message {
+    color: red;
+    display: none; /* Cacher le message d'erreur initialement */
+}
+button{
+    margin-left: 90%;
+    background-color: orange;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
